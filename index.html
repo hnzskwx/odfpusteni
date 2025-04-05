@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Úvodní stránka projektu Odpuštění. Objevte, jak odpuštění přináší klid a harmonii." />
+    <title>Odpuštění</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Odpuštění</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Přejít na úvodní stránku">Úvod</a></li>
+                    <li><a href="teorie.html" title="Přejít na stránku teorie">Teorie</a></li>
+                    <li><a href="odpustit.html" title="Zjistěte, jak odpustit">Jak odpustit?</a></li>
+                    <li><a href="pribehy.html" title="Přečtěte si příběhy">Příběhy</a></li>
+                    <li><a href="dotaznik.html" title="Vyplňte dotazník">Dotazník</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="uvod">
+                <h2>Úvod</h2>
+                <p>Odpuštění je klíčem k vnitřnímu klidu a harmonii. Objevte, jak může změnit váš život.</p>
+                <a href="teorie.html" class="cta-button">Zjistěte více</a>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Odpuštění | <a href="kontakt.html" title="Kontaktujte nás">Kontakt</a></p>
+        </footer>
+    </div>
+
+    <script>
+        // Funkce pro přidání třídy 'visible' na odstavec po načtení stránky
+        window.onload = function() {
+            const uvodP = document.querySelector('#uvod p');
+            uvodP.classList.add('visible');
+        };
+    </script>
+</body>
+</html>
