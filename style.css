@@ -91,9 +91,10 @@ h1, h2 {
 /* Footer */
 footer {
     text-align: center;
-    padding: 20px;
-    font-size: 0.9em;
+    padding: 10px; /* Zmenšeno z 20px na 10px */
+    font-size: 0.8em; /* Zmenšena velikost textu */
     color: #777;
     border-top: 1px solid #bfae6a;
     background: rgba(255, 255, 255, 0.85);
+    margin-top: auto; /* Footer na spodku stránky */
 }
