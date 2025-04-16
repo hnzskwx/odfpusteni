@@ -7,6 +7,58 @@
     <title>Odpuštění</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <style>
+       
+        #uvod {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2rem;
+           
+            color: black;
+            border-radius: 8px;
+            margin: 2rem auto;
+            max-width: 1200px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .uvod-text {
+            max-width: 50%;
+        }
+
+        .uvod-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .uvod-text p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .uvod-text .cta-button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: white;
+            
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .uvod-text .cta-button:hover {
+            
+            color: white;
+        }
+
+        .uvod-image img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -25,9 +77,14 @@
 
         <main>
             <section id="uvod">
-                <h2>Úvod</h2>
-                <p>Odpuštění je klíčem k vnitřnímu klidu a harmonii. Objevte, jak může změnit váš život.</p>
-                <a href="teorie.html" class="cta-button">Zjistěte více</a>
+                <div class="uvod-text">
+                    <h2>Objevte sílu odpuštění</h2>
+                    <p>Odpuštění je klíčem k vnitřnímu klidu a harmonii. Pomáhá nám zbavit se zášti, uzdravit naše vztahy a najít cestu k sobě samým.</p>
+                    <a href="teorie.html" class="cta-button">Zjistěte více</a>
+                </div>
+                <div class="uvod-image">
+                    <img src="images/favicon.ico" alt="Symbol odpuštění" />
+                </div>
             </section>
         </main>
 
